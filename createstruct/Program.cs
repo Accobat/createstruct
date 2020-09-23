@@ -22,7 +22,7 @@ namespace createstruct
   {
         static void Main(string[] args)
         {
-            Person p = new Person("Tony", "Allen", 32, Person.Genders.Male);
+            Person p = new Person("Alex", "P", 19, Person.Genders.Male);
             Console.WriteLine(p.ToString());
         }
     }
